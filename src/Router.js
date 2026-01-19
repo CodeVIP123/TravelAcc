@@ -6,23 +6,25 @@ import Navbar from './components/Navbar'
 import ShopItem from './components/Shop_Item'
 
 const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <><Navbar /><Home /></>
-    },
-    {
-        path: "/about",
-        element: <><Navbar /><About /></>
-    },
-    {
-        path: "/shop",
-        element: <><Navbar /><Shop /></>
-    },
-    {
-        path: "/shop/:item",
-        element: <><Navbar /><ShopItem /></>
-    }
-], {basename: "/TravelAcc"})
+  {
+    path: "/",
+    element: <><Navbar /><Home /></>
+  },
+  {
+    path: "/about",
+    element: <><Navbar /><About /></>
+  },
+  {
+    path: "/shop",
+    element: <><Navbar /><Shop /></>
+  },
+  {
+    path: "/shop/:item",
+    element: <><Navbar /><ShopItem /></>
+  }
+], {
+  basename: "/TravelAcc"
+});
 
 export { router }
 
