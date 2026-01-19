@@ -29,7 +29,7 @@ const Home = () => {
           </div>
           <div style={{ flex: 1, textAlign: 'center' }}>
             <img
-              src="/TravelAcc/TravelAcc/home.webp"
+              src="/TravelAcc/home.webp"
               alt="Travel Accessories"
               style={{ width: '80%', height: 'auto', borderRadius: 10 }}
             />
@@ -57,7 +57,7 @@ const Home = () => {
             }}
           >
             <NavLink to="/shop/baggage">
-              <img src="/TravelAcc/TravelAcc/baggage.jpg" className="card-img-top" alt="..." />
+              <img src="/TravelAcc/baggage.jpg" className="card-img-top" alt="..." />
             </NavLink>
             <div className="card-body text-center">
               <h5 className="card-title">Baggage</h5>
@@ -65,7 +65,7 @@ const Home = () => {
           </div>
           <div className="card" style={{ width: '18rem' }}>
             <NavLink to="/shop/noise-cancel-headphones">
-              <img src="/TravelAcc/TravelAcc/noise-cancel-headphones.webp" className="card-img-top" alt="..." />
+              <img src="/TravelAcc/noise-cancel-headphones.webp" className="card-img-top" alt="..." />
             </NavLink>
             <div className="card-body text-center">
               <h5 className="card-title">Noise Cancelation Headphones</h5>
@@ -79,7 +79,7 @@ const Home = () => {
             }}
           >
             <NavLink to="/shop/reusable-water-bottle">
-              <img src="/TravelAcc/TravelAcc/reusable-water-bottle.jpg" className="card-img-top" alt="..." />
+              <img src="/TravelAcc/reusable-water-bottle.jpg" className="card-img-top" alt="..." />
             </NavLink>
             <div className="card-body text-center">
               <h5 className="card-title">Reusable Water Bottle</h5>
@@ -97,7 +97,7 @@ const Home = () => {
         >
           <div className="card" style={{ width: '18rem', marginLeft: '20px' }}>
             <NavLink to="/shop/travel-pillow">
-              <img src="/TravelAcc/TravelAcc/travel-pillow.jpg" className="card-img-top" alt="..." />
+              <img src="/TravelAcc/travel-pillow.jpg" className="card-img-top" alt="..." />
             </NavLink>
             <div className="card-body text-center">
               <h5 className="card-title">Travel Pillow</h5>
@@ -105,7 +105,7 @@ const Home = () => {
           </div>
           <div className="card" style={{ width: '18rem' }}>
             <NavLink to="/shop/power-bank">
-              <img src="/TravelAcc/TravelAcc/power-bank.jpg" className="card-img-top" alt="..." />
+              <img src="/TravelAcc/power-bank.jpg" className="card-img-top" alt="..." />
             </NavLink>
             <div className="card-body text-center">
               <h5 className="card-title">Power Bank</h5>
@@ -113,7 +113,7 @@ const Home = () => {
           </div>
           <div className="card" style={{ width: '18rem', marginRight: '20px' }}>
             <NavLink to="/shop/travel-organizer">
-              <img src="/TravelAcc/TravelAcc/travel-organizer.jpg" className="card-img-top" alt="..." />
+              <img src="/TravelAcc/travel-organizer.jpg" className="card-img-top" alt="..." />
             </NavLink>
             <div className="card-body text-center">
               <h5 className="card-title">Travel Organizer</h5>
