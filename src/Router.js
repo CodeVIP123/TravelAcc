@@ -22,7 +22,7 @@ const router = createBrowserRouter([
         path: "/shop/:item",
         element: <><Navbar /><ShopItem /></>
     }
-])
+], {basename: "/TravelAcc"})
 
 export { router }
 
