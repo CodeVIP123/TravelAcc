@@ -68,7 +68,7 @@ const ShopItem = () => {
   return (
     <div className="container mx-5 my-5 d-flex align-items-center">
       <img
-        src={`/${urlItem}`}
+        src={`/TravelAcc/${urlItem}`}
         alt={refItem}
         style={{
           maxWidth: '300px',

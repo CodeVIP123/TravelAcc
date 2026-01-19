@@ -28,7 +28,7 @@ const About = () => {
           </div>
           <div style={{ flex: 1, textAlign: 'center' }}>
             <img
-              src="/about.png"
+              src="/TravelAcc/about.png"
               alt="Travel Accessories"
               style={{ width: '80%', height: 'auto', borderRadius: 10 }}
             />
