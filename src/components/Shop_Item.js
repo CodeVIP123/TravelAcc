@@ -4,27 +4,27 @@ import { useParams } from 'react-router-dom'
 const ShopItem = () => {
   const { item } = useParams();
   let refItem, urlItem, redirectURL;
-  if (item === 'noise-cancel-headphones') {
+  if (item == 'noise-cancel-headphones') {
     refItem = 'Bose QuietComfort Wireless Noise Cancelling Headphones, Bluetooth Over Ear Headphones with Up to 24 Hours of Battery Life, Twilight Blue - Limited Edition ';
     redirectURL = 'https://www.amazon.in/Bose-QuietComfort-Cancelling-Headphones-Bluetooth/dp/B0DZHR44J9/ref=sxin_14_pa_sp_search_thematic_sspa?content-id=amzn1.sym.7d24a1f6-077e-4200-9faf-bce027074aa5%3Aamzn1.sym.7d24a1f6-077e-4200-9faf-bce027074aa5&crid=9ZTB8Z2NHFJB&cv_ct_cx=noise%2Bcancellation%2Bheadphones&keywords=noise%2Bcancellation%2Bheadphones&pd_rd_i=B0DZHR44J9&pd_rd_r=476c4cb8-6873-43ce-8ac1-6d011411a5cf&pd_rd_w=LVg2t&pd_rd_wg=bpF5g&pf_rd_p=7d24a1f6-077e-4200-9faf-bce027074aa5&pf_rd_r=FDWTV1735KT99X92VQ02&qid=1760423554&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=noise%2Bcancellation%2Bheadphone%2Caps%2C300&sr=1-4-4e480fe6-dd02-46af-8da7-58088322ef64-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1';
   }
-  else if (item === 'packing-cubes-with-compression') {
+  else if (item == 'packing-cubes-with-compression') {
     refItem = 'MONJAY 7pcs pouche Set Travel Organizer Packing Cubes Lightweight Travel Luggage Organizers with Laundry Bag or Toiletry Bag Laundry Organiser (7 PCS, Grey) ';
     redirectURL = 'https://www.amazon.in/Organizer-Lightweight-Organizers-Organiser-polyester/dp/B0CJRNG5HC/ref=sr_1_1_sspa?crid=AF5XBFKTVXC1&dib=eyJ2IjoiMSJ9.8QNHi2kaDG4IYEVqM8HhKkXF79eJq69V0vDJKbJ00fYGOH6vqrezCh6_aTrbm1a9MBRLsUlVXojOPcujm6NFqPJULxEpLTW5W8u78UcW640Ym2YLOVsIb4BlxmSILjB4PVaIDTOSAMERfDVSrSc_m9zy0xKfeu_tykiT9dfATPa8rYDgDFtG7Uq7emVOGoU_bXlv2exNu3VBSCtRXXVAAttSt2IGeNC_EsCiSD_HmLV7tWiL-RtAYLtD2hShEOflMwfOROcNogmN8-6ldnd7i3Q_DgL28W5pOT9CVKVE4uc.jzDnLTnCppYF5aVUOTSg_APgVAD3tdYCRLPDmD5YqHU&dib_tag=se&keywords=travel%2Borganizer&qid=1760424008&sprefix=travel%2Borganiz%2Caps%2C317&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1';
   }
-  else if (item === 'reusable-water-bottle') {
+  else if (item == 'reusable-water-bottle') {
     refItem = 'ALL TIME Freeze Water Bottle 1000 ML Indigo Color | Unbrekable | Reusable BPA free Fridge Water Bottle ';
     redirectURL = 'https://www.amazon.in/Milton-Hector-Bottle-1000-Blue/dp/B085JCGPS6/ref=sr_1_6?crid=1YF8O2CK1MO97&dib=eyJ2IjoiMSJ9.84HGxmNih4l0B8YF1eBiuUQN0JeDcI53j25J_ivWJaevm4ets63HGuQc1muP_DV-_Jt7OlQ0pPMEkTLMOOnASCSwKhZ4NnoWGd44LoM1-M8_rZnveFMd-IdFWzOldCNR0eMTumbahcIF2HVk02YsfrUhrxOP_zj08N138b13nkIPaKx5MppbH6Sd3RfRPefly9uuENXcNx4VWfkNZC93-M7r3qccLDCw9Lh65n6NJ5ToNAd_2gKjtfc_s8IELinhxUBJquaE7YIsuaPDHEQ-UV-UkPX20n5V3WfXU9lAzDI.PYL5-quxN4fmdyluwp3cdA5cUZFqmAO-65kYjKFXAvY&dib_tag=se&keywords=reusable%2Bwater%2Bbottle&qid=1760426602&sprefix=reusable%2Bwater%2Caps%2C348&sr=8-6&th=1';
   }
-  else if (item === 'travel-pillow') {
+  else if (item == 'travel-pillow') {
     refItem = 'CareFoam Travel Neck Pillow | Premium Memory Foam Neck Pillow for Flight Travel, Car Sleeping | Adjustable Head Rest, Neck Rest Travelling Pillow for Sleeping Head Support ';
     redirectURL = 'https://www.amazon.in/CareFoam-Premium-Sleeping-Adjustable-Travelling/dp/B0F3TX36NZ/ref=sxin_15_pa_sp_search_thematic_sspa?content-id=amzn1.sym.88162dec-e7ad-44a4-bc35-c1ae6ac07aba%3Aamzn1.sym.88162dec-e7ad-44a4-bc35-c1ae6ac07aba&crid=3BPXLZC3I8M1J&cv_ct_cx=travel%2Bpillow&keywords=travel%2Bpillow&pd_rd_i=B0F3TX36NZ&pd_rd_r=c3ba4c24-a336-47e2-b66b-50b9ae7b483b&pd_rd_w=iIkVw&pd_rd_wg=WMGVF&pf_rd_p=88162dec-e7ad-44a4-bc35-c1ae6ac07aba&pf_rd_r=MHH9XRJ32W3VPCQ666RJ&qid=1760426268&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=travel%2Bpillow%2Caps%2C343&sr=1-2-883a54c7-f466-4d42-997c-6d482a360a1a-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1';
   }
-  else if (item === 'baggage') {
+  else if (item == 'baggage') {
     refItem = 'American Tourister Polypropylene 8 Wheels Trolley Bag for Travel | Upland Spinner 79 Cms Hardsided Large Check-in Luggage Bag | Suitcase for Travel | Trolley Bag for Travelling, Formula Red';
     redirectURL = 'https://www.amazon.in/American-Tourister-Polycarbonate-FS3-001/dp/B07RY9QPDT/ref=sr_1_7?crid=3F4KCQ78OPT0N&dib=eyJ2IjoiMSJ9.MaHNPDLW2ddRBRopRqGw8IEUFw8cTGmW14gywsKIfMHs_IUZ5TzvxFO3XJ2SaEijzJa8nkFqerwdRmZXGmJTRutH8_oHLGlDO11TuQSgB5i_Z-B_VK_e9vWYsITNdDOrdJZf19LYuSU8dfXcXkdCr1has4nkk8wWezppE95pXulEBOKEn2E5TjzMjdfK0EfZ99KIjHT0qxqRWqp-X9oK3Nk8h0mGKeUQSguD3dSI5sI2OKh47YeSt4vqgKjpeQ5iOidqpfVF3j-eDWPOQm7T8Kt9sGfVF5L87RU4LKw3_CM.fT6VGwTzaRZmpy9tRv-nzy9EGZKtRU21WFXTE2jZ4qQ&dib_tag=se&keywords=red%2Bbaggage&qid=1760426146&sprefix=red%2Bbagg%2Caps%2C260&sr=8-7&th=1';
   }
-  else if (item === 'universal-travel-adapter') {
+  else if (item == 'universal-travel-adapter') {
     refItem = 'Embox Universal Charger Adapter 224+ Countries Support Travel Adapter International All in One Worldwide International Travel Adapter (White) ';
     redirectURL = 'https://www.amazon.in/Prime-Deals-Adapter-Travel-International/dp/B0859H1MTB/ref=sr_1_4?crid=1TJEUPPS8XVZA&dib=eyJ2IjoiMSJ9.b7qA6o9nrIflooTkn3wdHaUy6N_bKA2M2We2vFEvTp5iH5U2b836rqV9jUKVJrQVmEBdqaAnwD_dhPSuE_4WAaac0uh8KWTkQCIXz2GVUonPd9nWIcZxvrlbYkh49RaeZ90qwzm5eGwZUIFpyDmJLr5mVUx7ISP_rQtGlq_9ii6DsAUmExNcJ_EiNb5FDccdrMlIMFpeefQl-IUD0VpQT40jWc7rC0__SItcExrq3J0.Gnx8HBGUvrxhZKsL4NPlgA9xbpZYvXcebLK73aY8AZI&dib_tag=se&keywords=universal%2Btravel%2Badapter&qid=1760426725&sprefix=universal%2Btravel%2Badapter%2Caps%2C328&sr=8-4&th=1';
   }
